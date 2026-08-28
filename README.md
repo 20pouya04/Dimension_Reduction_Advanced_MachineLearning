@@ -35,7 +35,7 @@ dimensionalities (1 to 60 components).
 | File | Description |
 |---|---|
 | `dimensionality_reduction_comparison.py` | Clean, documented Python script — runs both sections and saves comparison plots. |
-| `Dimention_Reduction_Advanced_MachineLearning.ipynb` | Original Jupyter notebook version of the project. |
+| `Dimension_Reduction_Advanced_MachineLearning.ipynb` | Original Jupyter notebook version of the project. |
 | `LICENSE` | MIT License. |
 
 ## Requirements
@@ -89,7 +89,7 @@ X_train, X_test, y_train, y_test = train_test_split(X_digits, y_digits, test_siz
 n_components, acc_pca, acc_iso = classification_accuracy_vs_components(X_train, X_test, y_train, y_test)
 ```
 
-Alternatively, open and run `Dimention_Reduction_Advanced_MachineLearning.ipynb`
+Alternatively, open and run `Dimension_Reduction_Advanced_MachineLearning.ipynb`
 in Jupyter for the original notebook walkthrough (which also includes
 interactive 3D/2D Plotly visualizations of the Swiss Roll).
 
